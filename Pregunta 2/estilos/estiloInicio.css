@@ -1,0 +1,355 @@
+
+body{
+
+	font-family: "arial";
+}
+header{
+	background-color: #195141;
+	text-align: right;
+}
+header figure{
+	float: left;
+	margin-left: 100px;
+
+}
+/*imagen de la cabecera  */
+header figure img{
+    width: 130px;
+	height: 130px;
+	border-radius: 50%;
+}
+/*Titulo de la cabecera de la cabecera  */
+header h2{
+	color: white;
+	float: left;
+	font-size: 1.6em;
+	display: block;
+	margin: 7px 80px 0px 50px;
+	padding: 15px;
+	font-style: italic;
+	text-shadow: 2px 2px 4px black;
+}
+/*menu de opciones  de la cabecera  */
+header nav ul{
+   
+	padding: 0px;
+	margin: 0px;
+    width: 100%;
+    height: auto;
+	text-align:center;
+}
+/*opciones del menu de la cabecera  */
+header nav ul li{
+	height: 50px;
+	margin-top: 35px;
+	width: 100%;
+/*dezpalzar verticalmente  */
+	display: inline-block;
+	font-size: 1.4em;
+	font-style: italic;
+	color: white;
+	cursor: pointer;
+	text-shadow: 2px 2px 4px black;
+
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	padding: 30px 30px;
+
+}
+	/*Titulo de pestaña */
+div.cosas h4.tress{
+	background-color: #86D04F;
+	color: white;
+	font-size: 4em;
+	font-style: italic;
+	padding: 15px;
+	text-align: center;
+	font-family: "arial";
+	text-shadow: 2px 2px 4px black;
+
+}
+
+h4{
+	background-color:rgba(47,79,79,0.6);
+	color: #FDF5E6;
+}
+	/*caja de contenido  */
+section{
+
+	width: auto;
+	height: auto;
+	padding: 30px;
+}
+	/*Publicidad  */
+section div.new{
+	width: 30%;
+	background-color: #D4B060;
+		/*lineas de borde  */
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-right: 100px;
+	float: right;
+		/*tamaño de caja de publidad  */
+	padding-bottom: 21px;
+	display: none;
+
+}
+
+	/*Titulo Publicidad  */
+
+section div.new h1{
+	clear:both;
+	margin-top: 10px;
+	text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+
+}
+	/*contenido de publicidad */
+
+section div.new article.post{
+	width: 100%;
+	margin-left: 0%;
+	margin-top: 15px;
+	    	/*separador   */
+	border-top: 2px solid #440a4e;
+}
+
+section div.new article.post h5{
+margin-left: 20px;
+padding: 10px;
+
+}
+
+section div.new p{
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: justify;
+	margin: 5px 5% 10px 5%;
+}
+
+section div.new video{
+	width: 90%;
+	margin: 0px 5%;
+}
+
+    	/*caja de contenido   */
+
+div.uno{
+	background-color: black;
+	background-color: rgba(5,13,21,0.8);
+	border-color: #f7f7f7;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+	font-size: 0.9em;
+	height: auto;
+	margin: 30px 0px 20px 0px;
+	padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+	padding-bottom: 30px;
+		/*tamaño verticalmente  */
+	width: auto;
+}
+
+div.uno span{
+	background-color: rgba(5,12,19,1);
+	border-color: #f7f7f7;
+	border-radius: 15px;
+	border-style: solid;
+	color: white;
+	font-size: 0.9em;
+	left: 40px;
+	line-height: -20px;
+	padding: 5px 18px;
+	position: relative;
+	top: -30px;
+	}
+
+div.uno h5{
+	padding: 0px;
+	text-align: left;
+	margin-left: 35px;
+	margin-top: 20px;
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+
+div.uno p{
+	font-size: 15px;
+	text-align: justify;
+	margin: 15px 10px 5px 30px;
+	color: white;
+    font-size: 2em;
+}
+
+	/*caja de imagenes de artistas  */
+
+
+div#contenedor #slider {
+
+	border-radius: 10px;
+	border: 2px solid white;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	margin: 0 auto;
+	min-height: 1000px;
+	width: 95%;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;
+
+}
+
+div#contenedor #slider div.elemento {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+    height: 100%;
+}
+
+div#contenedor #slider img{
+	width: 100%;
+    height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px; 
+}
+
+
+footer{
+	color: white;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	padding: 1em;
+    clear: left;
+    height: 25px;
+    padding-bottom: 20px;
+
+
+}
+footer span:after{
+	content: " -";
+}
+
+footer span:before{
+	content: " -";
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook2 {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-google-plus3 {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+
+
+
+
+
+@media screen and (min-width: 480px ){
+
+	header nav ul li{
+		width: 22%;
+	}
+		section div.new{
+		display: inline;
+	}
+}
+
+@media screen and (min-width: 760px ){
+	header nav ul li{
+		width: 8%;
+	}
+	div#contenedor{
+		display: inline;
+	}
+	section article.receta{
+		width: 40%;
+		margin: 50px 3% 20px 6%;
+	}
+
+}
+
+@media screen and (min-width: 950px ){
+ 	section article.receta{
+		width: 26%;
+		margin: 50px 1% 10px 3%;
+	}
+	section div.new{
+		display: inline;
+	}
+}
+/*caja de busqueda*/
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+    background: rgb(66, 65, 65);
+    padding: 10px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.buscar_texto {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    line-height: 60px;
+    transition: .3s;
+}
+
+
+.icon-search{
+	margin-top: 0px;
+    top: 0%;
+    color: #D4B060;
+}
