@@ -2,7 +2,11 @@
 <html lang="es">
 <head>
 	 	
+<<<<<<< HEAD
 	<title>FACULTAD DE CIENCIAS PURAS  Y NATURALES NFORMATICA</title>
+=======
+	<title>FACULTAD DE CIENCIAS PURAS Y NATURALES INFORMATICA adsdsCTUALIZADA</title>
+>>>>>>> minuevafeature
 	<meta charset="utf-8"/>		
 	<link rel="stylesheet" href="estilos/estiloinicio.css">				 
 	<link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
