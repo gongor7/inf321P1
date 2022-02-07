@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	 	
-	<title>FACULTAD DE CIENCIAS S NATURALES NFORMATICA</title>
+	<title>FACULTAD DE CIENCIAS PURAS  Y NATURALES NFORMATICA</title>
 	<meta charset="utf-8"/>		
 	<link rel="stylesheet" href="estilos/estiloinicio.css">				 
 	<link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
